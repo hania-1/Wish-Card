@@ -12,7 +12,7 @@ const Picture = () => {
     // Show BirthdayWish component after 7 seconds
     const timer = setTimeout(() => {
       setShowBirthdayWish(true);
-    }, 7000);
+    }, 9000);
 
     return () => clearTimeout(timer);
   }, []);
