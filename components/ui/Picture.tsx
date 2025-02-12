@@ -50,7 +50,7 @@ const Picture = () => {
             layout="intrinsic"
             width={800} // Adjust the width here
             height={600} // Adjust the height here
-            className="rounded-xl shadow-lg"
+            className="rounded-xl shadow-2xl"
           />
 
           {/* Text Overlay with Typing Effect */}
