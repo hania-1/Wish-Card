@@ -90,9 +90,9 @@ export default function BirthdayWish() {
         <Card className="mx-auto overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl border-2 border-black bg-gray-200">
           {/* Card header with birthday message */}
           <CardHeader className="text-center">
-            <CardTitle className="text-4xl font-bold text-black">Happy 19th Birthday!</CardTitle>
-            <CardDescription className="text-2xl font-semibold text-gray-600">Hania Rizwan</CardDescription>
-            <p className="text-lg text-gray-500"><i>August 22nd</i></p>
+            <CardTitle className="text-4xl font-bold text-black">Happy 22nd Birthday!</CardTitle>
+            <CardDescription className="text-2xl font-semibold text-gray-600">Mudassir</CardDescription>
+            <p className="text-lg text-gray-500"><i>February 13th</i></p>
           </CardHeader>
           {/* Card content with candles and balloons */}
           <CardContent className="space-y-6 text-center">
@@ -153,7 +153,7 @@ export default function BirthdayWish() {
             </div>
             {/* Birthday wish section */}
             <div>
-              <h3 className="text-lg font-semibold text-black mb-2">Wish Hania a Happy Birthday:</h3>
+              <h3 className="text-lg font-semibold text-black mb-2">Wish Maddy a Happy Birthday:</h3>
               <input 
                 type="text"
                 value={birthdayWish}
