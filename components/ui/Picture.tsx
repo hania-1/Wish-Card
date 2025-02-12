@@ -54,13 +54,16 @@ const Picture = () => {
           />
 
           {/* Text Overlay with Typing Effect */}
-          <div className="font-sans ml-1 m-1 absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-black text-3xl sm:text-base md:text-4xl font-bold text-center p-4 animate-bounce-slow">
-  <div className="typing-effect">
-    <p>Wishing you a Happy Birthday</p> 
-  </div>
-</div>
-
-
+          <div
+            className="-mt-11 font-sans absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
+          text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center p-4 
+          bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-transparent bg-clip-text 
+          animate-bounce-slow"
+          >
+            <div className="typing-effect">
+              <p>Wishing you a Happy Birthday</p>
+            </div>
+          </div>
         </div>
       ) : (
         <div className="animate-fade-up">
